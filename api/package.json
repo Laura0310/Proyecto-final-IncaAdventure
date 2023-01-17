@@ -1,0 +1,43 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start nodemon": "nodemon index.js",
+    "test": "mocha -w ./tests/**/*.spec.js"
+  },
+  "author": "Henry",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.18.3",
+    "npm": ">=6.14.6"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.32.0",
+    "cloudinary-core": "^2.13.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.11.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.28",
+    "mercadopago": "^1.5.14",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.8.0",
+    "pg": "^8.5.1",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.0.1",
+    "supertest-session": "^4.1.0"
+  }
+}

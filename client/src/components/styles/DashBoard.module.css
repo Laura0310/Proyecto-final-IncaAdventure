@@ -1,0 +1,15 @@
+.tableContainer{
+    background-color: white;
+    box-shadow: 0 0 14px #0000001f;
+    border-radius: 8px;
+}
+
+.filterSelect{
+    flex: none !important;
+    width: 170px !important;
+}
+
+.filterInput{
+    flex: none !important;
+    width: 200px !important;
+}

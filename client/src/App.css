@@ -1,0 +1,394 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #178d1f
+}
+
+.profile-button {
+  background: rgb(29, 143, 16);
+  box-shadow: none;
+  border: none
+}
+
+.profile-button:hover {
+  background: #17c443
+}
+
+.profile-button:focus {
+  background: #119e39;
+  box-shadow: none
+}
+
+.profile-button:active {
+  background: #19c146;
+  box-shadow: none
+}
+
+.back:hover {
+  color: #1aa338;
+  cursor: pointer
+}
+
+.z-index-1000{
+  z-index: 1000;
+}
+
+.z-index-10{
+  z-index: 10;
+}
+
+.labels {
+  font-size: 11px
+}
+
+.add-experience:hover {
+  background: #BA68C8;
+  color: #fff;
+  cursor: pointer;
+  border: solid 1px #BA68C8
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.min-height-activity-card {
+  height: 350px;
+}
+
+.max-height-sidebar {
+  max-height: 450px;
+}
+
+.viewport-height-nav{
+  height: 6vh !important;
+}
+
+.viewport-height-content{
+  height: 92vh !important;
+}
+
+.fixed-content {
+  margin-top: 53px;
+}
+
+.bg-green{
+background-image: url("https://static.vecteezy.com/system/resources/previews/003/474/732/non_2x/abstract-banner-background-free-vector.jpg");
+text-shadow: 0 0 2px #fff;
+}
+
+.video {
+  background-color: rgb(214, 139, 139);
+  width: 500px;
+  height: 300px;
+}
+
+
+
+@media (min-width: 992px){
+  .pr-6 {
+      padding-right: 3vw !important;
+  }
+
+  .pl-6 {
+      padding-left: 3vw !important;
+  }
+
+  .pl-7 {
+    padding-left: 1.5vw !important;
+  }
+}
+
+@media (min-width: 1300px){
+  .input-width {
+      max-width: 20vw !important;
+  }
+}
+
+@media (max-width: 1300px){
+  .input-width {
+      max-width: 30vw !important;
+  }
+}
+
+@media (max-width: 850px){
+  .input-width {
+      max-width: 45vw !important;
+  }
+}
+
+@media (max-width: 500px){
+  .input-width {
+      max-width: 60vw !important;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-primary{
+text-decoration: none !important;
+}
+
+
+.text-decoration-none{
+  text-decoration: none !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.no-interaction{
+  user-select: none !important;
+}
+
+ul{
+  list-style: none;
+  padding: 5px;
+}
+li a{
+  color: darkgray;
+  text-decoration: none;
+}
+li a:hover{
+  text-decoration: none;
+  color: darksalmon;
+}
+.fa-circle{
+  font-size: 20px;
+}
+#red{
+  color: #e94545d7;
+}
+#teal{
+  color: rgb(69, 129, 129);
+}
+#blue{
+  color: #0000ff;
+}
+.cardShop{
+  height: 300px;
+}
+.cardShop-img-top{
+  height: 210px;
+}
+.cardShop-body p{
+  margin: 2px;
+}
+.cardShop-body{
+  padding: 0;
+  padding-left: 2px;
+}
+.filter{
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 600;
+}
+
+@media(min-width:991px){
+  .navbar-navShopShop{
+      margin-left: 35%;
+  }
+  .nav-itemShopShop{
+      padding-left: 20px;
+  }
+  .cardShopShop{
+      height: 300px;
+  }
+  .cardShop-img-top{
+      height: 210px;
+  }
+  #mobile-filter{
+      display: none;
+  }
+}
+@media(min-width:768px) and (max-width:991px){
+  .navbar-navShop{
+      margin-left: 20%;
+  }
+  .nav-itemShopShop{
+      padding-left: 10px;
+  }
+  .cardShop{
+      height: 300px;
+  }
+  .cardShop-img-top{
+      height: 210px;
+  }
+  #mobile-filter{
+      display: none;
+  }
+}
+@media(min-width:568px) and (max-width:767px){
+  .navbar-navShop{
+      margin-left: 20%;
+  }
+  .nav-itemShop{
+      padding-left: 10px;
+  }
+  .cardShop{
+      height: 300px;
+  }
+  .cardShop-img-top{
+      height: 210px;
+  }
+  .fa-circle{
+      font-size: 15px;
+  }
+  #mobile-filter{
+      display: none;
+  }
+}
+@media(max-width:567px){
+  .navbar-navShop{
+      margin-left: 0%;
+  }
+  .nav-itemShop{
+      padding-left: 10px;
+  }
+  #sidebar{
+      width: 100%;
+      padding: 10px;
+      margin: 0;
+      float: left;
+  }
+  #products{
+      width: 100%;
+      padding: 5px;
+      margin: 0;
+      float: right;
+  }
+  .cardShop{
+      height: 300px;
+  }
+  .cardShop-img-top{
+      height: 210px;
+  }
+  .list-group-item{
+      padding: 3px;
+  }
+  /* .offset-1{
+      margin-left: 8%;
+  } */
+  .filter{
+      display: block;
+      margin-left: 70%;
+      margin-top: 2%;
+  }
+  #sidebar{
+      display: none;
+  }
+  #mobile-filter{
+      padding: 10px;
+  }
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+.btn-transparent:hover {
+  font-weight: bold;
+}
+
+.css-9mgopn-MuiDivider-root {
+  border-color: rgb(139, 138, 138) !important;
+}

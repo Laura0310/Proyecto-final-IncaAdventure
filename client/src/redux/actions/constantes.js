@@ -1,0 +1,18 @@
+export const GET_USERS = "GET_USERS";
+export const POST_USER = "POST_USER";
+export const GET_SERVICES = "GET_SERVICES";
+
+export const GET_DETAIL = "GET_DETAIL";
+
+export const ADD_TO_CART ="ADD_TO_CART";
+export const DELETE_FROM_CART ="DELETE_FROM_CART";
+export const CHANGE_QUANTITY ="CHANGE_QUANTITY";
+export const SET_LOCAL_STORAGE_CART = "SET_LOCAL_STORAGE_CART"
+
+export const GET_REVIEWS = "GET_REVIEWS";
+export const POST_ACTIVITY_REVIEW = "POST_ACTIVITY_REVIEW";
+export const POST_PRODUCT_REVIEW = "POST_PRODUCT_REVIEW"
+
+export const GET_PRODUCTS = "GET_PRODUCTS";
+
+export const GET_ACTIVITIES = "GET_ACTIVITIES";
